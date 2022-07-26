@@ -65,7 +65,7 @@ function App() {
   return (
     <div className="app">
       <div className="sidebar">
-      <button onClick={handleShowform}> {showForm ? 'Hide': 'Show'} new poem form</button>
+      <button onClick={handleShowform}> {showForm ? 'Hide': 'Show'} New Poem Form</button>
         {showForm ? <NewPoemForm onSubmission={handleNewPoem} /> : null}
 
         <button onClick={() => setShowFavorite(!showFavorite)} >
